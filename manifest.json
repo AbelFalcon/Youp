@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Buscar en YouTube",
+    "version": "1.0",
+    "description": "Una extensión para buscar texto seleccionado en YouTube.",
+    "permissions": ["contextMenus", "tabs"],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
